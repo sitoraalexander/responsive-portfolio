@@ -10,6 +10,8 @@
 
     <!-- My own Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
     
 </head>
 <body>
@@ -23,7 +25,7 @@
     </button>
             <!--Collapsing Bottons-->
             <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" href="index.html">About</a>
                   </li>
@@ -40,15 +42,51 @@
           </nav>
     </header>
 
-<!--Main Content goes here-->
+<!--Main Content-->
     <main>
+      <div class="content">
+        <div class="container my-3 p-3 border border border-info bg-light">
+            <div class="d-flex row">
+                <div class="align-items-baseline col-lg-12 text-info">
 
+                    <h1 class="display-4 text-center text-lg-left">About Me</h1>
+                </div>
+            </div>
+
+
+            <hr class="my-3">
+
+            <!-- Portfolio Images with Captions -->
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <figure class="figure">
+                            <img src="./images/Sitora_Alexander.png" class="img-fluid img-thumbnail figure-img rounded" alt="Profile Picture">
+                            <figcaption class="figure-caption">Sitora Alexander</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-9 text-secondary">
+                    <p class="lead">Sitora Alexander is a talented, business-savvy millennial living her American-Dream to the fullest. She is specialized in Telehealth, Value Based Medicine, MACRA, Meaningful Use, HEDIS, Credentialing and Contracting, Merger Acquisitions, Compliance, Quality Assurance and Chronic Care Management with 12 years of experience in successful clinical and non clinical healthcare operations.</p>
+
+                    <p class="lead">While continuing her education at Harvard University, Sitora also works as a Senior Healthcare Consultant, where she and her team provide consultation and assistance to medical practices to manage and grow their revenue, provider credentialing with federal and state insurance companies, telemedicine, quality assurance, quality improvement, healthcare investments, HR, healthcare compliance, reimbursement and forensic analysis. Currently, Sitora serves 16 medical practices with 30,000 (Thirty thousand) active patients.
+                    </p>
+                    <p class="lead">Sitora also studies Software Development st Columbia Univercities Coding Bootcamp.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     </main>
     <!--Sticky Footer-->
     <footer class="footer mt-auto py-3">
         <div class="container">
-          <span class="text-muted">Sitora Alexander 2020</span>
+          <span class="text-muted">Sitora Alexander. All rights reserved. 2020</span>
         </div>
       </footer>  
+        <!--Bootstrap JS - for Navbar Dropdown -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
